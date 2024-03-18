@@ -4,7 +4,7 @@
 
 <p id="description">Movix is a sleek and intuitive movie app designed to help users discover and explore a wide range of movies across different genres. With its user-friendly interface and dynamic features Movix makes it easy to find popular top-rated and upcoming movies while also offering seamless search functionality and sliders for viewing movies for a single genre.</p>
 
-<p align="center"><img src="[https://socialify.git.ci/PSS2134/RobylonAI-Frontend/image?name=1&amp;owner=1&amp;theme=Dark](https://github.com/PSS2134/RobylonAI-Frontend/assets/101321904/57846aa9-25a7-43bc-9189-ebefe866b74c)" alt="project-image"></p>
+<p align="center"><img src="https://github.com/PSS2134/RobylonAI-Frontend/assets/101321904/57846aa9-25a7-43bc-9189-ebefe866b74c" alt="project-image"></p>
 
 
   
