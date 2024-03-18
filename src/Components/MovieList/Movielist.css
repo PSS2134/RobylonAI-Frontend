@@ -1,0 +1,82 @@
+.moviecard-trailer{
+  
+    width: 90vw;
+   height: 70vh;
+    border-radius: 10px;
+    margin: 2vh auto;
+   display: block;
+   
+  transition: top 0.5s ease;
+   
+}
+
+.moviecard-trailer.active {
+    top: 100px; 
+  }
+.movie-flex-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.slider-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .movie-slider {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .slide {
+    flex: 0 0 auto;
+  }
+  
+  .slide.active {
+    transform: translateX(-100%);
+  }
+  
+  .prev-btn,
+  .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 25px;
+    color: #fff;
+    z-index: 1;
+  }
+  
+  .prev-btn {
+    left: 10px;
+  }
+  
+  .next-btn {
+    right: 10px;
+  }
+  
+  
+  .active  {
+    display: block;
+  }
+
+  .movielist-title{
+    margin: 4vh 0 1vh 2vh;
+    font-size: 2rem;
+    color: white;
+  }
+  .popularmovie-inputtag{
+    border-radius:5px;
+  }
+
+  .popularmovie-inputtag:focus{
+ outline: none;
+  border: 2px solid #F28585;
+  }
