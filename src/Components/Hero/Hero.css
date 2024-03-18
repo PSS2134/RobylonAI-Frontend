@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 50px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-header .logo {
+    color: #FF204E;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 2.5rem;
+}
+
+.hero-video {
+    height: max-content;
+    width: 100%;
+}
+
+.hero-text-content {
+    position: absolute;
+    bottom: 120px;
+    left: 50px;
+
+    color: white;
+
+}
+
+.hero-title {
+    font-size: 3rem;
+    margin: 2vh 0;
+}
+
+.hero-description {
+    font-size: 1.75rem;
+    line-height: 2.75rem;
+    width: 70%;
+}
+
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 55%;
+    }
+
+    .hero-header .logo {
+        font-size: 1.5rem;
+    }
+
+    .hero-header {
+        padding: 5px 15px;
+    }
+
+    .hero-text-content {
+        bottom: 15px;
+        left: 15px;
+    }
+
+    .hero-title {
+        font-size: 1.5rem;
+    }
+
+    .hero-description {
+        font-size: 0.75rem;
+        width: 90%;
+
+
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    html {
+        font-size: 75%;
+    }
+
+    .hero-header .logo {
+        font-size: 2.5rem;
+    }
+
+    .hero-header {
+        padding: 10px 30px;
+    }
+
+    .hero-text-content {
+        bottom: 30px;
+        left: 30px;
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .hero-description {
+        font-size: 1.5rem;
+        width: 90%;
+
+    }
+
+}

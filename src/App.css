@@ -1,0 +1,15 @@
+/*Creating a Custom Scroll-Bar*/
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #141414;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #FF204E;
+    border-radius: 5px;
+
+}

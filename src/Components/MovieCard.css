@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: #141414;
+    /* background-color: #141414; */
     font-family: "Poppins";
 
 }
@@ -31,4 +31,19 @@
     width: fit-content;
     height: 25vh;
     border-radius: 10px;
+}
+
+@media only screen and (max-width:768px) {
+
+    .moviecard-img {
+        height: 15vh;
+    }
+
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .moviecard-img {
+        height: 20vh;
+    }
+
 }

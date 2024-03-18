@@ -5,13 +5,17 @@ import Popular from "./MovieList/Popular";
 import TopRated from "./MovieList/TopRated";
 import Upcoming from "./MovieList/Upcoming";
 import "./MovieList/Movielist.css";
+import Hero from "./Hero/Hero";
 
 const MovieSlider = () => {
   return (
     <>
-      <Popular />
-      <TopRated />
-      <Upcoming />
+      <Hero />
+      <div style={{ backgroundColor: "#141414" }}>
+        <Popular />
+        <TopRated />
+        <Upcoming />
+      </div>
     </>
   );
 };

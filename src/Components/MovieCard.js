@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import "./MovieCard.css";
 
-const MovieCard = ({ url }) => {
-  console.log(url);
-  const [movie, setMovie] = useState(false);
+const MovieCard = ({ url,showMovie }) => {
+
   return (
     <div>
       <div className="moviecard-box">

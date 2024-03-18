@@ -84,9 +84,7 @@ const Popular = () => {
   const handleShortcut = (event) => {
     console.log(event);
     if (event.ctrlKey && event.key === "k") {
-      // Ctrl + K shortcut is pressed
-      event.preventDefault(); // Prevent browser's default Ctrl + K behavior
-      // Set focus to the search input field
+      event.preventDefault(); 
       document.getElementById("searchInput").focus();
     }
   };
@@ -126,13 +124,7 @@ const Popular = () => {
           value={searchTerm}
           onChange={handleInputChange}
           className="popularmovie-inputtag"
-          style={{
-            width: "15vw",
-            height: "3vh",
-            margin: "0 2vw",
-            backgroundColor: "white",
-            padding: "1vh",
-          }}
+          
         />
       </div>
 
@@ -146,9 +138,9 @@ const Popular = () => {
               <div
                 key={movie.id}
                 onClick={() => handleMovieClick(movie)}
-                className="slide"
+                className="slide" 
               >
-                <MovieCard url={movie.poster_path} />
+                <MovieCard url={movie.poster_path} showMovie={showMovie}/>
               </div>
             ))}
           </div>

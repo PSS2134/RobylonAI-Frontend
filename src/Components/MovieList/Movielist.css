@@ -1,82 +1,109 @@
-.moviecard-trailer{
-  
-    width: 90vw;
-   height: 70vh;
-    border-radius: 10px;
-    margin: 2vh auto;
-   display: block;
-   
+.moviecard-trailer {
+
+  width: 90vw;
+  height: 70vh;
+  border-radius: 10px;
+  margin: 2vh auto;
+  display: block;
+
   transition: top 0.5s ease;
-   
+
 }
 
 .moviecard-trailer.active {
-    top: 100px; 
-  }
-.movie-flex-box{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+  top: 100px;
+}
+
+.movie-flex-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 
 .slider-container {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-  }
-  
-  .movie-slider {
-    display: flex;
-    transition: transform 0.5s ease;
-  }
-  
-  .slide {
-    flex: 0 0 auto;
-  }
-  
-  .slide.active {
-    transform: translateX(-100%);
-  }
-  
-  .prev-btn,
-  .next-btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    padding: 10px;
-    font-size: 25px;
-    color: #fff;
-    z-index: 1;
-  }
-  
-  .prev-btn {
-    left: 10px;
-  }
-  
-  .next-btn {
-    right: 10px;
-  }
-  
-  
-  .active  {
-    display: block;
-  }
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
 
-  .movielist-title{
-    margin: 4vh 0 1vh 2vh;
-    font-size: 2rem;
-    color: white;
-  }
-  .popularmovie-inputtag{
-    border-radius:5px;
-  }
+.movie-slider {
+  display: flex;
+  transition: transform 0.5s ease;
+}
 
-  .popularmovie-inputtag:focus{
- outline: none;
-  border: 2px solid #F28585;
+.slide {
+  flex: 0 0 auto;
+}
+
+.slide.active {
+  transform: translateX(-100%);
+}
+
+.prev-btn,
+.next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 25px;
+  color: #fff;
+  z-index: 1;
+}
+
+.prev-btn {
+  left: 10px;
+}
+
+.next-btn {
+  right: 10px;
+}
+
+
+.active {
+  display: block;
+}
+
+.movielist-title {
+  margin: 4vh 0 1vh 2vh;
+  font-size: 2rem;
+  color: white;
+}
+
+.popularmovie-inputtag {
+  border-radius: 5px;
+  width: 15vw;
+  height: 5vh;
+  margin: 0 2vw;
+  background-color: white;
+  padding: 1vh;
+
+}
+
+.popularmovie-inputtag:focus {
+  outline: none;
+  border: 3px solid #F28585;
+
+}
+
+.active-card {
+  border: 1px solid gray;
+}
+
+@media only screen and (max-width:768px) {
+  .popularmovie-inputtag {
+    height: 2vh;
+    width: 20vw;
   }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .popularmovie-inputtag {
+    width: 30vw;
+    height: 4vh;
+  }
+}
