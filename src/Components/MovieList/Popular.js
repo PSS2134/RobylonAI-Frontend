@@ -84,9 +84,7 @@ const Popular = () => {
   const handleShortcut = (event) => {
     console.log(event);
     if (event.ctrlKey && event.key === "k") {
-      // Ctrl + K shortcut is pressed
-      event.preventDefault(); // Prevent browser's default Ctrl + K behavior
-      // Set focus to the search input field
+      event.preventDefault(); 
       document.getElementById("searchInput").focus();
     }
   };
@@ -128,7 +126,7 @@ const Popular = () => {
           className="popularmovie-inputtag"
           style={{
             width: "15vw",
-            height: "3vh",
+            height: "5vh",
             margin: "0 2vw",
             backgroundColor: "white",
             padding: "1vh",
