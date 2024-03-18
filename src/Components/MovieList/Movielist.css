@@ -107,3 +107,7 @@
     height: 4vh;
   }
 }
+  .popularmovie-inputtag:focus{
+ outline: none;
+  border: 3px solid #F28585;
+  }

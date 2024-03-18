@@ -85,6 +85,7 @@ const Popular = () => {
     console.log(event);
     if (event.ctrlKey && event.key === "k") {
       event.preventDefault(); 
+      event.preventDefault(); 
       document.getElementById("searchInput").focus();
     }
   };
